@@ -5,7 +5,7 @@ const LearnMore = () => {
     return (
         <a href="#learn-more" className="learn-more-link">
             Learn more 
-            <img src={arrowRight} alt="Arrow right" />
+            <img src={arrowRight} alt="Arrow right" className="arrow-icon" />
           </a>
     );
 };

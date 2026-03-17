@@ -30,7 +30,7 @@
     gap: 30px;
     padding: 0 15px;
   }
-  
+
   .partner-logo img {
     max-height: 25px; /* Smaller logos on mobile */
   }
@@ -40,7 +40,7 @@
   .partners-list {
     gap: 20px;
   }
-  
+
   .partner-logo img {
     max-height: 20px; /* Even smaller logos on very small screens */
   }

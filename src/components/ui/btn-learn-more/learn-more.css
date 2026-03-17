@@ -14,3 +14,11 @@
 .learn-more-link:hover {
   opacity: 0.8;
 }
+
+.arrow-icon {
+  transition: transform var(--transition-speed) ease;
+}
+
+.learn-more-link:hover .arrow-icon {
+  transform: translateX(5px);
+}

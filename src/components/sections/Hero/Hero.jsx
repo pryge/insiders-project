@@ -38,7 +38,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="hero-curve">
+      <div className="hero-curve"> {/* Think about this curve */}
         <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M0 0C240 100 720 120 1440 0V120H0V0Z" fill="var(--color-bg-light)"/>
         </svg>
