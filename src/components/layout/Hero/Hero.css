@@ -1,0 +1,165 @@
+.hero-layout {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.hero-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.hero-background-img {
+  position: absolute;
+  top: -120px;
+  left: 0;
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  z-index: 1;
+}
+
+.hero-background-img-small {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  object-position: top center;
+  z-index: 2;
+}
+
+.hero-content-wrapper {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding-top: 120px;
+  padding-bottom: 80px;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+}
+
+@media (min-width: 992px) {
+  .hero-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.hero-text-content {
+  flex: 1;
+  color: var(--color-white);
+  max-width: 500px;
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  .hero-text-content {
+    text-align: left;
+  }
+}
+
+.hero-title {
+  color: var(--color-white);
+  font-size: 48px;
+  font-weight: var(--font-weight-bold);
+  line-height: 1.1;
+  margin-bottom: 18px;
+}
+
+@media (min-width: 768px) {
+  .hero-title {
+    font-size: 64px;
+  }
+}
+
+.hero-description {
+  font-size: 16px;
+  line-height: 1.6;
+  opacity: 0.9;
+  margin-bottom: 40px;
+}
+
+@media (min-width: 768px) {
+  .hero-description {
+    font-size: 18px;
+  }
+}
+
+.start-now-btn {
+  width: 200px;
+  height: 50px;
+  padding: 14px 32px;
+  font-size: 16px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+}
+
+.hero-image-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.image-container {
+  width: 100%;
+  max-width: 800px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.monitor-big {
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: 1;
+}
+
+.monitor-small {
+  position: absolute;
+  width: 100%;
+  bottom: -5%;
+  z-index: 2;
+  border-radius: var(--border-radius-md);
+}
+
+@media (max-width: 991px) {
+  .image-container {
+    max-width: 500px;
+    margin-top: 40px;
+  }
+}
+
+
+.hero-curve {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  line-height: 0;
+}
+
+.hero-curve svg {
+  width: 100%;
+  height: auto;
+  min-height: 60px;
+  display: block;
+}
