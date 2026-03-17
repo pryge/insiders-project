@@ -1,0 +1,47 @@
+.partners-section {
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.partners-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 80px;
+  opacity: 0.5;
+}
+
+.partner-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.partner-logo img {
+  max-width: 100%;
+  height: auto;
+  max-height: 40px; /* Base size for desktop */
+}
+
+@media (max-width: 768px) {
+  .partners-list {
+    gap: 30px;
+    padding: 0 15px;
+  }
+  
+  .partner-logo img {
+    max-height: 25px; /* Smaller logos on mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  .partners-list {
+    gap: 20px;
+  }
+  
+  .partner-logo img {
+    max-height: 20px; /* Even smaller logos on very small screens */
+  }
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from '../Header/Header';
+import Header from '../../layout/Header/Header';
 import bgImage from '../../../assets/images/background/main-gradient-background.svg';
 import bgImageSmall from '../../../assets/images/background/main-gradient-background-small.svg';
 import MonitorBig from '../../../assets/images/devices/Monitor-big.png';

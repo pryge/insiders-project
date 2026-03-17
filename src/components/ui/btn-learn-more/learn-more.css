@@ -1,0 +1,16 @@
+.learn-more-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #5C0E62;
+  font-weight: var(--font-weight-bold);
+  font-size: 16px;
+  text-decoration: none;
+  position: relative;
+  z-index: 1;
+  transition: opacity var(--transition-speed) ease;
+}
+
+.learn-more-link:hover {
+  opacity: 0.8;
+}

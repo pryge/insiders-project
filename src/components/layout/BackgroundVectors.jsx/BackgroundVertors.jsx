@@ -1,6 +1,6 @@
 import React from 'react';
-import WaveTop from '../assets/images/background/main-gradient-background.svg';
-import WaveBottom from '../assets/images/background/main-gradient-background-small.svg';
+import WaveTop from '../../../assets/images/background/main-gradient-background.svg';
+import WaveBottom from '../../../assets/images/background/main-gradient-background-small.svg';
 
 const BackgroundVectors = () => {
   return (
